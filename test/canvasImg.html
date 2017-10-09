@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+    <img src="./images/1506181053577.jpg" style="width: 100%;" />
+
+    <script src="../lib/jquery-3.2.1.min.js"></script>
+    <script src="../src/canvasImg.js"></script>
+
+    <script type="text/javascript">
+        var canvasImg = new CanvasImg('img');
+        canvasImg.setTrigger(function (link) {
+            alert(link);
+            return false;
+        });
+        canvasImg.data('arc,5,34,13,7,http%3A%2F%2Fwww.baidu.com');
+    </script>
+    </body>
+</html>
